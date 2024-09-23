@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edge"/>
+  <listeners>
+    <listener class-name="com.meesho.rerun.Transformer"/>
+  </listeners>
+  <test name="Test">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.meesho.Kids"/>
+    </classes>
+  </test> <!-- Test -->
+  <test parallel="tests" name="Test(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.meesho.Kids">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="after"/>
+          <include name="close_The_Application"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="Validate_SoftToys_Page" invocation-numbers="0 0 0"/>
+          <include name="before"/>
+          <include name="launch_The_Application"/>
+        </methods>
+      </class> <!-- com.meesho.Kids -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

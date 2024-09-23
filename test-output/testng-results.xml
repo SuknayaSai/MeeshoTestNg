@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="2" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-23T05:39:01Z" name="Suite" finished-at="2024-09-23T05:39:13Z" duration-ms="12101">
+    <groups>
+      <group name="Click">
+        <method signature="Kids.Click_On_KIDS()[pri:2, instance:com.meesho.Kids@5a755cc1]" name="Click_On_KIDS" class="com.meesho.Kids"/>
+        <method signature="Kids.Click_SOftToys()[pri:3, instance:com.meesho.Kids@5a755cc1]" name="Click_SOftToys" class="com.meesho.Kids"/>
+        <method signature="Kids.Validate_SoftToys_Page(java.lang.String)[pri:4, instance:com.meesho.Kids@5a755cc1]" name="Validate_SoftToys_Page" class="com.meesho.Kids"/>
+      </group> <!-- Click -->
+    </groups>
+    <test started-at="2024-09-23T05:39:01Z" name="Test" finished-at="2024-09-23T05:39:13Z" duration-ms="12101">
+      <class name="com.meesho.Kids">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:01Z" name="beforeSuite" finished-at="2024-09-23T11:09:01Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:01Z" name="beforeTest" finished-at="2024-09-23T11:09:01Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="launch_The_Application(java.lang.String)[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:01Z" name="launch_The_Application" finished-at="2024-09-23T11:09:08Z" duration-ms="6883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_The_Application -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:08Z" name="before" finished-at="2024-09-23T11:09:08Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Click_On_KIDS()[pri:2, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:08Z" name="Click_On_KIDS" finished-at="2024-09-23T11:09:08Z" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_KIDS -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:08Z" name="after" finished-at="2024-09-23T11:09:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:08Z" name="before" finished-at="2024-09-23T11:09:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Click_SOftToys()[pri:3, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:08Z" name="Click_SOftToys" finished-at="2024-09-23T11:09:11Z" duration-ms="2445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_SOftToys -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:11Z" name="after" finished-at="2024-09-23T11:09:11Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:11Z" name="before" finished-at="2024-09-23T11:09:11Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Validate_SoftToys_Page(java.lang.String)[pri:4, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:11Z" name="Validate_SoftToys_Page" data-provider="data" finished-at="2024-09-23T11:09:11Z" duration-ms="92" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[list]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	Assertion Failure in the WebElement text expected [list] but found [Relaxed Fashionable Men Flip Flops]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	Assertion Failure in the WebElement text expected [list] but found [Relaxed Fashionable Men Flip Flops]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.meesho.Kids.Validate_SoftToys_Page(Kids.java:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_SoftToys_Page -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:11Z" name="after" finished-at="2024-09-23T11:09:11Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:11Z" name="before" finished-at="2024-09-23T11:09:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Validate_SoftToys_Page(java.lang.String)[pri:4, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:11Z" name="Validate_SoftToys_Page" data-provider="data" finished-at="2024-09-23T11:09:12Z" duration-ms="1224" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[list]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	Assertion Failure in the WebElement text expected [list] but found [Essential Unisex Soft Toys]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	Assertion Failure in the WebElement text expected [list] but found [Essential Unisex Soft Toys]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.meesho.Kids.Validate_SoftToys_Page(Kids.java:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_SoftToys_Page -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:12Z" name="before" finished-at="2024-09-23T11:09:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:12Z" name="after" finished-at="2024-09-23T11:09:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="Validate_SoftToys_Page(java.lang.String)[pri:4, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:12Z" name="Validate_SoftToys_Page" data-provider="data" finished-at="2024-09-23T11:09:12Z" duration-ms="123" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[list]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	Assertion Failure in the WebElement text expected [list] but found [Essential Unisex Soft Toys]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	Assertion Failure in the WebElement text expected [list] but found [Essential Unisex Soft Toys]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.meesho.Kids.Validate_SoftToys_Page(Kids.java:126)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_SoftToys_Page -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:12Z" name="after" finished-at="2024-09-23T11:09:12Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="close_The_Application()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:12Z" name="close_The_Application" finished-at="2024-09-23T11:09:13Z" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_The_Application -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:13Z" name="afterTest" finished-at="2024-09-23T11:09:13Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.meesho.Kids@5a755cc1]" started-at="2024-09-23T11:09:13Z" name="afterSuite" finished-at="2024-09-23T11:09:13Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.meesho.Kids -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
